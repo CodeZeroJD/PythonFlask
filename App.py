@@ -63,7 +63,7 @@ def editClient():
 
 @app.route('/deleteClient')
 def deleteClient():
-    return 'Delete Client'
+    return 'Borrando cliente'
 
 if __name__ == '__main__':
     app.run(port = 3000, debug = True)
